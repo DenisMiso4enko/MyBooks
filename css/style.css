@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url(/css/normolaze.css);
+body {
+  background: #3C3C3C;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
+}
+
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-inner h1 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+}
+.header-inner .btn {
+  width: 57px;
+  height: 57px;
+  background: #9C4E4E;
+  border-radius: 50%;
+  border: none;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.fade-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.52);
+}
+.fade-block .modal-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.fade-block .modal-window .card {
+  width: 412px;
+  height: 632px;
+  background: #D9D9D9;
+  padding: 18px 50px;
+  border-radius: 10px;
+}
+.fade-block .modal-window .card__title {
+  text-align: center;
+  font-size: 25px;
+  line-height: 38px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.fade-block .modal-window .card .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 14px;
+  cursor: pointer;
+}
+.fade-block .modal-window .card .form-book {
+  margin-bottom: 33px;
+}
+.fade-block .modal-window .card .form-book .input__wrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+}
+.fade-block .modal-window .card .form-book .input__wrap label {
+  margin-bottom: 4px;
+}
+.fade-block .modal-window .card .form-book .input__wrap input {
+  background: #FFFFFF;
+  border-radius: 10px;
+  height: 41px;
+  padding: 0 20px;
+}
+.fade-block .modal-window .card .form-book .input__wrap textarea {
+  resize: none;
+  height: 195px;
+  padding: 10px 20px;
+  overflow: scroll;
+  border-radius: 10px;
+}
+.fade-block .modal-window .card .btn-add {
+  display: block;
+  padding: 8px 77px;
+  background: #495D8F;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+.main-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+}
+.main-inner .book-cards__item {
+  max-width: 240px;
+  background: #D9D9D9;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+}
+.main-inner .book-cards__item .cover {
+  width: 211px;
+  height: 220px;
+  margin-bottom: 10px;
+}
+.main-inner .book-cards__item .cover img {
+  width: 100%;
+  height: 100%;
+}
+.main-inner .book-cards__item .book-title {
+  margin-bottom: 10px;
+}
+.main-inner .book-cards__item .book-autor {
+  margin-bottom: 10px;
+}
+.main-inner .book-cards__item .disc {
+  margin-bottom: 10px;
+}
